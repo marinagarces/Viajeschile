@@ -1,0 +1,52 @@
+body {
+font-family: 'KoHo', sans-serif;
+}
+/*Estilo de favicon*/
+ #Svgnavbar {
+   width: 30px;
+   height: auto;
+   margin: 4px;
+   color: white;
+ }
+ /*Estilo de Sección quienes somos*/
+#QuienesSomos {
+  color: white;
+  background-color: black;
+}
+#QuienesSomos hr {
+  background-color: #23C7CE;
+  height: 1pX;
+}
+/*Estilo de sección destacados*/
+#Destacados hr {
+  background-color: #23C7CE;
+  height: 1pX;
+}
+#Destacados {
+  color: white;
+  background-color: black;
+  }
+
+/*Estilos de las Cards*/
+.card-deck {
+  color: black;
+}
+
+/*footer*/
+
+#footer {
+  background-color: #23C7CE;
+}
+ #SVG-FOOTER {
+   align-items: center;
+ }
+
+ /*La Sección Destacados desaparece en resolusiones de móviles, pero no funciona*/
+
+ @media screen and (max-width: 600px){
+
+   .ocultar
+   {
+     display: none;
+
+   }
