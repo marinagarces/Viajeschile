@@ -17,6 +17,14 @@ font-family: 'KoHo', sans-serif;
   background-color: #23C7CE;
   height: 1pX;
 }
+.svgQSS {
+  text-align: center;
+  background-color: #23C7CE;
+}
+.svgQSS svg {
+  width: 50px;
+}
+
 /*Estilo de sección destacados*/
 #Destacados hr {
   background-color: #23C7CE;
@@ -34,7 +42,7 @@ font-family: 'KoHo', sans-serif;
 
 /*footer*/
 
-#footer {
+#PiedePagina {
   background-color: #23C7CE;
 }
  #SVG-FOOTER {
